@@ -9,9 +9,9 @@ This is the example code for [Mamba Financial Headline Sentiment Classifier
 
 Examples for running the model are found in:
 
--
--
--
+- clone the repo install the requirments and run `python chat.py` for a simple command line based interface.
+- take a look at [eval.py](https://github.com/getorca/mamba_financial_sentiment/blob/main/eval.py) for the eval example.
+- [predict market moves]() - a notebook using the model to predict market moves from news headlines. WORK IN PROGRESS! 
 
 The basic prompt format is as follows:
 
@@ -29,6 +29,10 @@ Although many models are trained on [FinacialPhrasebank](https://huggingface.co/
 | --- | --- | --- | --- | --- |
 | [Mamba Financial Headline Sentiment Classifier](https://huggingface.co/winddude/mamba_financial_headline_sentiment) | 0.82 | 0.82 | 0.82 | 0.82 |
 
+
+## ToDo:
+
+- fix bug `TypeError: 'NoneType' object is not a mapping` when training on multiple GPUs 
 
 ## Citations
 ```
